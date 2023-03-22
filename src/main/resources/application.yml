@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://43.139.129.241:3306/humadb?serverTimezone=UTC
+      username: huma
+      password: Laura58662
+mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+server:
+  port: 3001
